@@ -44,6 +44,9 @@
   .actions { display: flex; flex-wrap: wrap; gap: 10px; padding: 12px 24px 24px; }
   .actions .btn { display: inline-flex; gap: 8px; padding: 0 18px; }
 
+  .intro { margin: -8px 0 28px; max-width: 54ch; font-size: 18px; line-height: 1.5; color: var(--muted); }
+  .intro b { color: var(--text); font-weight: 600; }
+
   footer { margin-top: 44px; color: var(--faint); font: 12px var(--mono); }
 
   @media (max-width: 640px) {
@@ -58,6 +61,8 @@
     <span class="name"><span class="wordmark"><b>R00K</b>’s</span></span>
     <span class="ver" id="ver"></span>
   </div>
+
+  <p class="intro in" style="--i:0"><b>Free tools for Minecraft Java Edition.</b> Turn colors into block gradients and palettes, design banners and fireworks, find slime chunks and strongholds, and work out builds, anvil combos and commands.</p>
 
   <article class="panel latest in" style="--i:1" aria-labelledby="latest-h">
     <div class="strip" id="strip" aria-hidden="true"></div>
